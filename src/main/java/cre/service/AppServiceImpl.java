@@ -68,7 +68,7 @@ public class AppServiceImpl implements AppService {
 		userToRoleRepository.save(ur2);
 		UserToRole ur3 = new UserToRole();
 		ur3.setUser(test);
-		ur3.setRole(role1);
+		ur3.setRole(role2);
 		userToRoleRepository.save(ur3);
 
 		RoleToPermission rp1 = new RoleToPermission();
